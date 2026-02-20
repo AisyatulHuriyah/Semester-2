@@ -1,0 +1,16 @@
+package Jobsheet_2;
+
+public class StudentMain04 {
+    public static void main(String[] args) {
+        Student04 mhs1 = new Student04();
+        mhs1.name = "Muhammad Ali Farhan";
+        mhs1.nim = "2241720171";
+        mhs1.Class = "SI 2J";
+        mhs1.gpa = 3.55;
+
+        mhs1.showInformation();
+        mhs1.changeClass("SI 2J");
+        mhs1.updateGpa(3.60);
+        mhs1.showInformation();
+    }
+}
