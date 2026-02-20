@@ -1,0 +1,35 @@
+package Jobsheet_2;
+
+public class Student04 {
+    String name;
+    String nim;
+    String Class;
+    double gpa;
+
+    void showInformation() {
+        System.out.println("Name : " + name);
+        System.out.println("NIM : " + nim);
+        System.out.println("GPA : " + gpa);
+        System.out.println("Class : " + Class);
+    }
+
+    void changeClass(String newClass) {
+        Class = newClass;
+    }
+
+    void updateGpa(double newGpa) {
+        gpa = newGpa;
+    }
+
+    String performance() {
+        if (gpa >=3.5) {
+            return "Excellent Performance";
+        } else if (gpa >=3.0) {
+            return "Good Performance";
+        } else if (gpa >= 2.0) {
+            return "Fair Performance";
+        } else {
+            return "Poor Performance";
+        }
+    }
+}
