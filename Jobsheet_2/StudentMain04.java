@@ -16,5 +16,8 @@ public class StudentMain04 {
         Student04 mhs2 = new Student04("Annisa nabila", "2141720160", "TI 2L", 3.25);
         mhs2.updateGpa(3.30);
         mhs2.showInformation();
+
+        Student04 mhs3 = new Student04("Aisyatul Huriyah", "254107060088", "SIB 1G", 3.99);
+        mhs3.showInformation();
     }
 }
