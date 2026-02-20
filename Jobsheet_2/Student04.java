@@ -6,6 +6,17 @@ public class Student04 {
     String Class;
     double gpa;
 
+    public Student04(){
+
+    }
+
+    public Student04(String name, String nim, String Class, double gpa) {
+        this.name = name;
+        this.nim = nim;
+        this.Class = Class;
+        this.gpa = gpa;
+    }
+
     void showInformation() {
         System.out.println("Name : " + name);
         System.out.println("NIM : " + nim);
